@@ -6,14 +6,18 @@
         margin: 0;
         padding: 0;
     }
+    /*清除默認的內、外邊距*/
 	#beside,#front-page
 	{
 		float:left;
 	}
+	/*讓#beside、#front-page向左黏合*/
+
 	#beside
 	{
 		width:15%;
 	}
+
 	#front-page
 	{
 		background-color:#1A1E23;
@@ -22,6 +26,8 @@
 		padding:1em;
 		opacity: 0.9
 	}
+	/*改背景顏色為#1A1E23、文字靠左、寬度佔70%、文字與邊框空1em、改透明度為0.9*/
+
 	#map
 	{
 		text-align:center;	
@@ -29,6 +35,7 @@
 	}
 	tr{color:#D3D6DE}
 	body {background-image:url("照片/封面.png");background-size:cover;background-attachment: fixed;text-align:center}
+	/*設"照片/封面.png"為背景圖、大小為全螢幕、背景固定不移動、至中*/
 	h1{color:#D3D6DE}
 	h2{color:#D3D6DE}
 	p{color:#D3D6DE;text-indent: 50px;font-size:20px}
@@ -135,9 +142,9 @@
 		
 		<h2>護符過載</h2>
 		<p>護符過載是《空洞騎士》中很有意思的隱藏機制，它允許玩家突破11個護符槽的上限，但在裝備更多護符的同時也將帶來可怕的Debuff。屬於強者用了更強；弱者用了找死的效果。此機制的觸發條件是當玩家試圖裝備一個所需護符槽大於剩餘護符槽的護符時系統將會自動阻止，但若重複裝備5次則觸發成功。觸發後玩家就能配戴更多的護符，但同時玩家也將承受雙倍傷害。所以新手玩家不建議使用這機制，不然破防的頻率可能會就大大提升喔</p>
-		<p>#注意:若你認為你以熟悉該遊戲的機制或你真的想不開了。給個建議，護符過載只能觸發一次，但不受你所超過的護符槽格數影響，所以你可以將所需最多護符曹的護符最後裝以裝備更多的護符</p>
+		<p>#注意:若你認為你以熟悉該遊戲的機制或你真的想不開了。給個建議，護符過載只能觸發一次，但不受你所超過的護符槽格數影響，所以你可以將所需最多護符槽的護符最後裝以裝備更多的護符</p>
 
-		<table style="width:100%;text-align:center" border="1">
+		<table style="width:100%;text-align:center"border="1">
 			<tr>
 				
 			</tr>
@@ -154,7 +161,9 @@
 			</tr>
 
 			<tr>
-				<td style="text-align:center"><img id=map src= "照片\Charm_任性的指南針.webp"></td>
+
+				<td style="text-align:center">
+					<a href="任性的指南針"><img id=map src= "照片\Charm_任性的指南針.webp"></a></td>
 				<td style="text-align:center"><img id=map src= "照片\Charm_蜂群集結.webp"></td>
 				<td style="text-align:center"><img id=map src= "照片\Charm_堅硬外殼.webp"></td>
 				<td style="text-align:center"><img id=map src= "照片\Charm_靈魂捕手.webp"></td>
