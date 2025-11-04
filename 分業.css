@@ -24,55 +24,49 @@
 		opacity: 0.9
 	}
 
-	#introduce,#sheet
-	{
-		float:left;
-	}
-
-	#introduce
-	{
-		display: flex;
-		height: 100%;
-		width:60%;
-		justify-content: center;
- 		align-items: center;		
-	}
-
-	#sheet
-	{
-		display: flex;
-		height: 100%;
-		width:40%;		
-		background-color:#1A1E23;
-		justify-content: center;
-		text-align:center;
-	}
-
 	#map
 	{
 		text-align:center;	
 		width:90%; 
 	}
 
-	#Charms
-	{
-		text-align:center;	
-		width:60%;
-	}
-
-	#Charm_Notch_td
-	{
-		text-align:center;
-	}
-	#Charm_Notch
+	.Charm_Notch
 	{	
-		width:17%;
-		margin: 0;
+		width:15%;
+	}
+
+	.container 
+	{
+    display: flex
+    }
+
+    .charm-table-style 
+    {
+    color: #f7f3e8; 
+    border: 3px solid #6b8fb7; 
+    border-collapse: collapse; 
+    font-family: Arial, sans-serif;
+    opacity: 1
+	}
+
+	.charm-table-style td 
+    {
+	border: 1px solid #4a4a68; 
+	background-color: #1a1a2e;
+	}
+
+	.Return-to-homepage
+	{
+	float: right;
+	width: 20%;
 	}
 
 
 
-	body {background-image:url("照片/封面.png");background-size:cover;background-attachment: fixed;text-align:center}
+
+
+
+	body {background-image:url("照片/封面.png");background-size:cover;background-attachment: fixed}
 
 	h1{color:#D3D6DE}
 
@@ -80,7 +74,7 @@
 
 	p{color:#D3D6DE;text-indent: 50px;font-size:20px}
 
-	table{text-align:center;color:#D3D6DE;width: 50%;margin: 0 auto;}
+	table{text-align:center;color:#D3D6DE;width: 100%;margin: 0 auto;}
 
 
 
