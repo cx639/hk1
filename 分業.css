@@ -57,8 +57,10 @@
 
 	.Return-to-homepage
 	{
-	float: right;
-	width: 20%;
+	position:fixed;
+	right:1px; 
+	bottom:1px;
+	width: 10%;
 	}
 
 
