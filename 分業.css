@@ -63,6 +63,11 @@
 	width: 13%;
 	}
 
+	.text
+	{
+	text-indent: 50px;
+	font-size:20px
+	}
 
 
 
@@ -74,7 +79,7 @@
 
 	h2{color:#D3D6DE}
 
-	p{color:#D3D6DE;text-indent: 50px;font-size:20px}
+	p{color:#D3D6DE}
 
 	table{text-align:center;color:#D3D6DE;width: 100%;margin: 0 auto;}
 
